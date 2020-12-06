@@ -1,0 +1,30 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "app that interface with spaceX api giving the result of rocket missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucadavid075/spaceX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucadavid075/spaceX/issues"
+  },
+  "homepage": "https://github.com/lucadavid075/spaceX#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
